@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>First operand:</h2> <input type="number" id="FO" > 
+    <br>
+    <br>
+    <br>
+
+    <h2>Second operand:</h2> <input type="number" id="SO" >
+
+    <br>
+    <br>
+    <h2>Operand:</h2> <button id="btn0" onclick="inFunction(this)" >+</button>
+    <button id="btn1" onclick="inFunction(this)" >-</button>
+    <button id="btn2" onclick="inFunction(this)" >*</button>
+    <button id="btn3" onclick="inFunction(this)" >/</button>
+
+    <br> <br>
+    <h1>Answer:</h1>
+
+    <p id="ans"></p>
+    
+    
+    <script>
+        let length = 16;
+        let weight = 7.5;
+
+        // Strings:
+        let color = "Yellow";
+        let lastName = "Johnson";
+
+        // Booleans
+        let x = true;
+        let y = false;
+
+        // Object:
+        const person = {firstName:"John", lastName:"Doe"};
+
+        // Array object:
+        const cars = ["Saab", "Volvo", "BMW"];
+
+        // Date object:
+        const date = new Date("2022-03-25");
+        function add() {
+            var x = document.getElementById("FO").valueAsNumber;
+            var y = document.getElementById("SO").valueAsNumber;
+            var z= x + y;
+            document.getElementById("ans").innerHTML= z;
+           
+        }
+        function sub() {
+            var x = document.getElementById("FO").valueAsNumber;
+            var y = document.getElementById("SO").valueAsNumber;
+            var z= x - y;
+            document.getElementById("ans").innerHTML= z;
+           
+        }
+        function multiply() {
+            var x = document.getElementById("FO").valueAsNumber;
+            var y = document.getElementById("SO").valueAsNumber;
+            var z= x * y;
+            document.getElementById("ans").innerHTML= z;
+           
+        }
+        function divide() {
+            var x = document.getElementById("FO").valueAsNumber;
+            var y = document.getElementById("SO").valueAsNumber;
+            var z= x / y;
+            document.getElementById("ans").innerHTML= z;
+           
+        }
+
+        function inFunction(ele){
+        let opvalue = ele.innerHTML;
+        console.log(typeof(opvalue));
+        if (opvalue==="+"){
+            add();
+        }
+        if (opvalue==="-"){
+            sub();
+        }
+        if (opvalue==="*"){
+            multiply();
+        }
+        if (opvalue==="/"){
+            divide();
+        }
+    }
+        console.log("equal");
+        const a = 2;
+        console.log(a === 2); 
+        console.log(a === '2');
+        console.log();
+        console.log("not equal");
+        const b = 2, c= 'hello';
+        console.log(b !== 2); 
+        console.log(b !== '2'); 
+        console.log(c !== 'Hello'); 
+        console.log();
+        console.log("greater than");
+        const d = 3;
+        console.log(d > 2); 
+        console.log();
+        console.log("greater than or equal to");
+        const e = 3;
+        console.log(e >= 3); 
+        console.log();
+        console.log("less than");
+        const f = 3, g = 2;
+        console.log(f < 2); 
+        console.log(g < 3); 
+        console.log();
+        console.log("less than or equal to");
+        const h = 2;
+        console.log(h <= 3) 
+        console.log(h <= 2); 
+        console.log();
+        console.log("Logical AND");
+        const a1 = true, b1 = false;
+        const c1 = 4;
+        console.log(a1 && a1); 
+        console.log(a1 && b1);  
+        console.log((c1 > 2) && (c1 < 2)); 
+        console.log();
+        console.log("Logical OR");
+        const a2 = true, b2 = false, c2 = 4;
+        console.log(a2 || b2); 
+        console.log(b2 || b2); 
+        console.log((c2>2) || (c2<2)); 
+        console.log();
+        console.log("Logical NOT");
+        const a3 = true, b3 = false;
+        console.log(!a3); 
+        console.log(!b3); 
+    </script>
+    
+</body>
+</html>
