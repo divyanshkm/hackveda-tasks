@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <h1>Use of conditional statement (if else) to change image</h1>
+    <h3>choose the image</h3>
+    <form>
+      <input
+        type="radio"
+        name="image"
+        id="panther"
+        value="panther"
+        onclick="bgchange()"
+      />
+      <label for="panther">Panther KF51</label>
+      <input
+        type="radio"
+        name="image"
+        id="f22"
+        value="f22"
+        onclick="bgchange()"
+      />
+      <label for="f22">F22 Raptor</label>
+      <input
+        type="radio"
+        name="image"
+        id="ac130"
+        value="ac130"
+        onclick="bgchange()"
+      />
+      <label for="ac130">AC130J</label>
+    </form>
+    <div class="divimg" id="divimage"></div>
+    <p>Result of control structure: <span id="controlresult"></span></p>
+
+    <form>
+      <h1>Factorial using 'for loop' :</h1>
+      <label for="Factorial">Enter number: </label>
+      <input type="number" name="Factorial" id="Factorial" />
+      <button onclick="factorial()" type="button">Factorial</button>
+    </form>
+    <b id="result"></b>
+    <script src="script.js"></script>
+  </body>
+</html>
