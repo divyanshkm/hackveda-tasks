@@ -7,3 +7,5 @@ Task 2: Introduction to JavaScript and its Core Principles.
 Task 3: Data Types, Variables, and Operators in JavaScript.
 
 Task 4: Control Structures in JavaScript.
+
+Task 5: Functions, Scope, and Closures
