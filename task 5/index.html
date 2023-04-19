@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Functions, Scope, and Closures Example</title>
+</head>
+<body>
+	<h1>Functions, Scope, and Closures Example</h1>
+	<p id="output"></p>
+	
+	<script>
+		// Declare a global variable
+		var globalVariable = "Hello World!";
+		
+		// Define a function that uses a local variable
+		function greet(name) {
+			var greeting = "Hello, " + name + "!";
+			return greeting;
+		}
+		
+		// Define a function that uses a closure
+		function showGlobalVariable() {
+			var message = "The global variable is: ";
+			function displayMessage() {
+				return message + globalVariable;
+			}
+			return displayMessage;
+		}
+		
+		// Call the greet function and output the result
+		var output = document.getElementById("output");
+		var greetingMessage = greet("John");
+		output.innerHTML = greetingMessage;
+		
+		// Call the showGlobalVariable function and output the result
+		var displayMessage = showGlobalVariable();
+		var globalVariableMessage = displayMessage();
+		output.innerHTML += "<br>" + globalVariableMessage;
+	</script>
+</body>
+</html>
