@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="main-frame">
+      <div class="background">
+        <div class="introduction" data-animate-on-scroll>
+          <div class="feel-better-about">FEEL BETTER ABOUT</div>
+          <div class="finding-healthcare">FINDING HEALTHCARE</div>
+          <div class="doctors-are-one">
+            Doctors are one of the most important people in society. They are
+            the sole reason our society is taking healthy and positive steps
+            towards progress because the health of the body and mind is the
+            reason behind the good work people put up towards development.
+          </div>
+        </div>
+        <img
+          class="male-doctor-portrait-isolated-icon"
+          alt=""
+          src="./public/maledoctorportraitisolatedwhitebackground56744085removebgpreview-1@2x.png"
+          data-animate-on-scroll
+        />
+
+        <img
+          class="istockphoto-1189304032-612x612-icon"
+          alt=""
+          src="./public/istockphoto1189304032612x612removebgpreview-1@2x.png"
+          data-animate-on-scroll
+        />
+      </div>
+      <div class="search-bar">
+        <img class="icon" alt="" src="./public/.svg" />
+
+        <button class="search-button" id="searchButton">
+          <img class="logo-icon" alt="" src="./public/logo.svg" />
+        </button>
+        <input
+          class="search-doctor"
+          type="text"
+          placeholder="Search Doctor"
+          id="Tsearchdoctor"
+        />
+
+        <input
+          class="set-location"
+          type="text"
+          placeholder="Set Location"
+          id="Tlocation"
+        />
+
+        <img class="icon1" alt="" src="./public/1.svg" />
+
+        <div class="you-may-be">You may be looking for</div>
+        <div class="search-bar-child"></div>
+        <div class="search-bar-item"></div>
+        <div class="search-bar-inner"></div>
+        <div class="rectangle-div"></div>
+        <button class="rectangle-button"></button>
+        <button class="famliy-medicne">Famliy Medicne</button>
+        <button class="covd">COVD</button>
+        <button class="top-hospital">Top Hospital</button>
+        <button class="telehealth">Telehealth</button>
+        <img class="x-icon" alt="" src="./public/x.svg" />
+
+        <img class="x-icon1" alt="" src="./public/x1.svg" />
+
+        <img class="x-icon2" alt="" src="./public/x2.svg" />
+
+        <img class="x-icon3" alt="" src="./public/x3.svg" />
+
+        <div class="more">More</div>
+      </div>
+      <div class="find-the-right-doctor" data-animate-on-scroll>
+        <div class="feel-better-about">Find the right Doctor</div>
+        <div class="right-at-your">Right at your fingertips</div>
+        <img class="icon2" alt="" src="./public/2.svg" />
+
+        <input
+          class="search-nearest-hospital"
+          type="text"
+          placeholder="Search Nearest hospital"
+          id="searchnearest"
+        />
+
+        <div class="we-are-here-container">
+          <ul class="we-are-here-to-hear-and-heal-y">
+            <li class="we-are-here">
+              We are here to hear and heal your health problems
+            </li>
+            <li class="we-are-here">It is not only about the money</li>
+            <li>More than just treating patients</li>
+          </ul>
+        </div>
+      </div>
+      <div class="below-doc-search" id="bottom right" data-animate-on-scroll>
+        <div class="below-doc-search-child"></div>
+        <div class="find-the-best">Find The Best doctor you need</div>
+        <img class="icon3" alt="" src="./public/3.svg" />
+
+        <input
+          class="search-doctor1"
+          type="text"
+          placeholder="Search Doctor"
+          id="Bsearchdoctor"
+        />
+
+        <input
+          class="set-location1"
+          type="text"
+          placeholder="Set Location"
+          id="Blocation"
+        />
+
+        <img class="icon4" alt="" src="./public/4.svg" />
+
+        <img
+          class="f-320523164-tx7rdd7i2xdtvvkfz2-icon"
+          alt=""
+          src="./public/360-f-320523164-tx7rdd7i2xdtvvkfz2orurpkope5z0niremovebgpreview-1@2x.png"
+        />
+
+        <button class="search-button1" id="searchButton1">
+          <img class="logo-icon" alt="" src="./public/logo1.svg" />
+        </button>
+      </div>
+      <div class="top-nav-bar" data-animate-on-scroll>
+        <button class="health-a-to" id="healthATo">Health A to Z</button>
+        <button class="find-a-hospital" id="findAHospital">
+          Find a Hospital
+        </button>
+        <button class="find-a-doctor" id="findADoctor">Find a Doctor</button>
+        <div class="healthcare" id="hEALTHCAREText">HEALTHCARE</div>
+      </div>
+    </div>
+
+    <script>
+      var searchButton = document.getElementById("searchButton");
+      if (searchButton) {
+        searchButton.addEventListener("click", function () {
+          window.open("google.com");
+        });
+      }
+      
+      var searchButton1 = document.getElementById("searchButton1");
+      if (searchButton1) {
+        searchButton1.addEventListener("click", function () {
+          window.open("google.com");
+        });
+      }
+      
+      var healthATo = document.getElementById("healthATo");
+      if (healthATo) {
+        healthATo.addEventListener("click", function () {
+          window.open("healthAtoZ.html");
+        });
+      }
+      
+      var findAHospital = document.getElementById("findAHospital");
+      if (findAHospital) {
+        findAHospital.addEventListener("click", function () {
+          window.open("findahospital.html");
+        });
+      }
+      
+      var findADoctor = document.getElementById("findADoctor");
+      if (findADoctor) {
+        findADoctor.addEventListener("click", function () {
+          window.open("findadoc.html");
+        });
+      }
+      
+      var hEALTHCAREText = document.getElementById("hEALTHCAREText");
+      if (hEALTHCAREText) {
+        hEALTHCAREText.addEventListener("click", function () {
+          window.open("/");
+        });
+      }
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>

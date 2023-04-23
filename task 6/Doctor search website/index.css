@@ -1,0 +1,512 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.feel-better-about,
+.finding-healthcare {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.finding-healthcare {
+  top: 75.97px;
+}
+.doctors-are-one {
+  position: absolute;
+  top: 139.04px;
+  left: 0;
+  font-size: 11.47px;
+  color: rgba(0, 0, 0, 0.59);
+  display: inline-block;
+  width: 442.93px;
+}
+.introduction {
+  position: absolute;
+  top: 128.31px;
+  left: 117.15px;
+  width: 443px;
+  height: 207.04px;
+  opacity: 1;
+}
+.introduction.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+.istockphoto-1189304032-612x612-icon,
+.male-doctor-portrait-isolated-icon {
+  position: absolute;
+  top: 80.33px;
+  left: 663.84px;
+  width: 435.12px;
+  height: 455.21px;
+  object-fit: cover;
+  opacity: 0;
+}
+.istockphoto-1189304032-612x612-icon.animate,
+.male-doctor-portrait-isolated-icon.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-bottom;
+}
+.istockphoto-1189304032-612x612-icon {
+  top: 80px;
+  left: 1044.3px;
+  width: 301.24px;
+  height: 455.54px;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: -10.04px;
+  background-color: #d9d9d9;
+  width: 1438.14px;
+  height: 535.54px;
+  font-size: 41.57px;
+  color: var(--color-royalblue-200);
+}
+.icon,
+.logo-icon {
+  position: absolute;
+  top: 85.41px;
+  left: 108.07px;
+  width: 28.45px;
+  height: 28.45px;
+  overflow: hidden;
+}
+.logo-icon {
+  height: 59.46%;
+  width: 37.29%;
+  top: 18.92%;
+  right: 30.51%;
+  bottom: 21.62%;
+  left: 32.2%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.search-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-royalblue-100);
+  position: absolute;
+  height: 19.17%;
+  width: 6.91%;
+  top: 22.3%;
+  right: 3.72%;
+  bottom: 58.53%;
+  left: 89.37%;
+  border-radius: var(--br-6xl-1);
+}
+.search-button:hover {
+  animation: 1s ease 0s infinite normal none scale-up;
+  opacity: 1;
+}
+.search-doctor,
+.set-location {
+  border: 0;
+  font-family: var(--font-poppins);
+  font-size: 20.08px;
+  background-color: transparent;
+  position: absolute;
+  top: 87.08px;
+  left: 153.25px;
+  color: var(--color-gray-200);
+  text-align: left;
+}
+.set-location {
+  left: 815.98px;
+}
+.icon1 {
+  position: absolute;
+  top: 88.75px;
+  left: 764.1px;
+  width: 28.45px;
+  height: 27.26px;
+  overflow: hidden;
+}
+.you-may-be {
+  position: absolute;
+  top: 160.72px;
+  left: 93px;
+  font-weight: 600;
+}
+.rectangle-div,
+.search-bar-child,
+.search-bar-inner,
+.search-bar-item {
+  position: absolute;
+  top: 213.02px;
+  left: 93px;
+  border-radius: var(--br-xs-3);
+  background-color: var(--color-lightgray);
+  width: 203.34px;
+  height: 26.36px;
+}
+.rectangle-div,
+.search-bar-inner,
+.search-bar-item {
+  left: 308.89px;
+}
+.rectangle-div,
+.search-bar-inner {
+  left: 524.78px;
+}
+.rectangle-div {
+  left: 740.67px;
+}
+.rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: rgba(1, 78, 213, 0.73);
+  position: absolute;
+  top: 209.36px;
+  left: 1026px;
+  border-radius: 15.25px;
+  width: 81px;
+  height: 32.4px;
+}
+.covd,
+.famliy-medicne,
+.telehealth,
+.top-hospital {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 210.92px;
+  left: 100.54px;
+  font-size: 18.83px;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+}
+.covd,
+.telehealth,
+.top-hospital {
+  top: 212.6px;
+  left: 327.3px;
+}
+.telehealth,
+.top-hospital {
+  left: 536.5px;
+}
+.telehealth {
+  left: 752.38px;
+}
+.x-icon {
+  position: absolute;
+  left: 273.75px;
+}
+.x-icon,
+.x-icon1,
+.x-icon2 {
+  top: 218.23px;
+  width: 15.06px;
+  height: 15.06px;
+  overflow: hidden;
+}
+.x-icon1 {
+  position: absolute;
+  left: 489.64px;
+}
+.x-icon2 {
+  left: 705.52px;
+}
+.more,
+.x-icon2,
+.x-icon3 {
+  position: absolute;
+}
+.x-icon3 {
+  top: 218.23px;
+  left: 921.41px;
+  width: 15.06px;
+  height: 15.06px;
+  overflow: hidden;
+}
+.more {
+  top: 209.36px;
+  left: 1042.2px;
+  font-size: 20.43px;
+  font-weight: 500;
+}
+.search-bar {
+  position: absolute;
+  top: 353.64px;
+  left: 0;
+  border-radius: 27.2px;
+  background-color: var(--color-white);
+  width: 1428px;
+  height: 323px;
+}
+.right-at-your {
+  position: absolute;
+  top: 44.63px;
+  left: 0;
+  font-weight: 600;
+}
+.icon2 {
+  position: absolute;
+  top: 135px;
+  left: 7.81px;
+  width: 18.97px;
+  height: 18.97px;
+  overflow: hidden;
+}
+.search-nearest-hospital {
+  border: 0;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-mini-5);
+  background-color: transparent;
+  position: absolute;
+  top: 133.88px;
+  left: 44.63px;
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+  text-align: left;
+}
+.we-are-here {
+  margin-bottom: 0;
+}
+.we-are-here-to-hear-and-heal-y {
+  margin: 0;
+  padding-left: 19px;
+}
+.we-are-here-container {
+  position: absolute;
+  top: 168.47px;
+  left: 27.89px;
+  font-size: var(--font-inherit);
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: var(--font-inherit);
+  color: rgba(0, 0, 0, 0.41);
+}
+.find-the-right-doctor {
+  position: absolute;
+  top: 756.45px;
+  left: 116.03px;
+  width: 439.89px;
+  height: 234.47px;
+  opacity: 0;
+  font-size: 27.89px;
+  color: var(--color-gray-100);
+}
+.find-the-right-doctor.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-left;
+}
+.below-doc-search-child {
+  position: absolute;
+  top: 137px;
+  left: 0;
+  border-radius: 7.81px;
+  background-color: var(--color-white);
+  width: 220.91px;
+  height: 263.31px;
+}
+.find-the-best {
+  position: absolute;
+  top: 158.2px;
+  left: 13.39px;
+  font-weight: 600;
+  display: inline-block;
+  width: 203.06px;
+}
+.icon3 {
+  position: absolute;
+  top: 260.84px;
+  left: 18.97px;
+  width: 18.97px;
+  height: 18.97px;
+  overflow: hidden;
+}
+.search-doctor1,
+.set-location1 {
+  border: 0;
+  font-family: var(--font-poppins);
+  background-color: transparent;
+  position: absolute;
+  color: var(--color-black);
+  text-align: left;
+}
+.search-doctor1 {
+  font-size: var(--font-size-mini-5);
+  top: 261.96px;
+  left: 49.09px;
+  letter-spacing: 0.02em;
+}
+.set-location1 {
+  font-size: 13.39px;
+  top: 321.09px;
+  left: 53.55px;
+  letter-spacing: 0.07em;
+}
+.icon4 {
+  position: absolute;
+  top: 322.21px;
+  left: 18.97px;
+  width: 18.97px;
+  height: 18.18px;
+  overflow: hidden;
+}
+.f-320523164-tx7rdd7i2xdtvvkfz2-icon {
+  position: absolute;
+  top: 0;
+  left: 192px;
+  width: 602.48px;
+  height: 401.65px;
+  object-fit: cover;
+}
+.search-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-royalblue-100);
+  position: absolute;
+  height: 7.47%;
+  width: 6.42%;
+  top: 89.88%;
+  right: 84.27%;
+  bottom: 2.65%;
+  left: 9.31%;
+  border-radius: var(--br-6xl-1);
+}
+.search-button1:hover {
+  animation: 1s ease 0s 1 normal none scale-up;
+  opacity: 1;
+}
+.below-doc-search {
+  position: absolute;
+  top: 678px;
+  left: 679px;
+  width: 794.48px;
+  height: 401.65px;
+  opacity: 0;
+}
+.below-doc-search.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-right;
+}
+.find-a-hospital,
+.health-a-to {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 5.82px;
+  font-size: 16.74px;
+  font-family: var(--font-poppins);
+  color: var(--color-royalblue-200);
+  text-align: left;
+  display: inline-block;
+  height: 21.2px;
+}
+.health-a-to {
+  cursor: pointer;
+  position: absolute;
+  left: 708.64px;
+  font-weight: 600;
+  width: 124.96px;
+}
+.find-a-hospital {
+  left: 489.97px;
+  width: 147.27px;
+}
+.find-a-doctor,
+.find-a-hospital,
+.healthcare {
+  position: absolute;
+  font-weight: 600;
+  cursor: pointer;
+}
+.find-a-doctor {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 5.82px;
+  left: 286.91px;
+  font-size: 16.74px;
+  font-family: var(--font-poppins);
+  color: var(--color-royalblue-200);
+  text-align: left;
+  display: inline-block;
+  width: 131.65px;
+  height: 21.2px;
+}
+.healthcare {
+  top: 7px;
+  left: 0;
+}
+.top-nav-bar {
+  position: absolute;
+  top: 31px;
+  left: 69px;
+  width: 1295px;
+  height: 32px;
+  font-size: 15.62px;
+}
+.main-frame {
+  position: relative;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 20.08px;
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .top-nav-bar {
+    opacity: 0;
+  }
+  .top-nav-bar.animate {
+    animation: 1s ease 0s 1 normal forwards slide-in-top;
+  }
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-200px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
