@@ -9,3 +9,5 @@ Task 3: Data Types, Variables, and Operators in JavaScript.
 Task 4: Control Structures in JavaScript.
 
 Task 5: Functions, Scope, and Closures
+
+Task 6: Develop a Doctor Search Website
